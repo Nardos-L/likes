@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Likes Part2</title>
+</head>
+<body>
+    <div class="navigation">
+        <h1>Network</h1>
+    </div>
+    <h2>Your Feed</h2>
+    <div class="container">
+       <div class="lef-col">
+           <img src="todd-s.jpg" alt="">
+           <div class="user-avatar">
+                <button class="avatar">Add an avatar</button>
+                <p>James Doe</p>
+           </div>
+       </div>
+       <div class="right-col">
+           <div class="left-col">
+                <div class="mid-left">
+                    <p class="user">Neil M</p>
+                    <p id="likes1">0</p>
+                    <button id="button1" onclick="increaseNumber('#likes1',0)">Like</button>
+                </div>
+                <p class="add-margin">I just set up this new discord bot, let me know what you all think.
+                    <a href="">link</a>
+                </p>
+                
+            </div>
+            <div class="left-col">
+                <div class="mid-left">
+                    <p class="user">Nichole K</p>
+                    <p id="likes2">0</p>
+                    <button id="button2" onclick="increaseNumber('#likes2',1)">Like</button>
+                </div>
+                <p>Just finished my
+                    <a href="">next comic,</a> check it out.
+                </p>               
+            </div>
+            <div class=left-col>
+                <div class="mid-left">
+                    <p class="user">Jim R</p>
+                    <p id="likes3">0</p>
+                    <button id="button3" onclick="increaseNumber('#likes3',2)">Like</button>
+                </div>
+                <p class="add-margin">I can't stop listening to the 
+                    <a href="">new album.</a> Who else is liking it?
+                </p>
+            </div>
+       </div>
+       <p class="pop">Each time we click the "Like" button it should increase the number of likes by "1"</p>
+    </div>
+    <script src="scripts2.js"></script>
+</body>
+</html>
